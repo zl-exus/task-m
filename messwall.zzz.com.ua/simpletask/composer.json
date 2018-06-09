@@ -1,0 +1,25 @@
+{
+    "name": "zl-exus/simpletask",
+    "description": "Simple task manager",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zl-exus",
+            "email": "feod.gr@bigmir.net"
+        }
+    ],
+    "require": {
+        "pagerfanta/pagerfanta": "^2.0",
+        "paragonie/easydb": "^2",
+        "cartalyst/sentry": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "stask\\": ""
+        },
+        "files": [
+            "conf/config.php"
+        ]
+    }
+}
